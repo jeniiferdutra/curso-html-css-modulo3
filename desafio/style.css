@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200;800&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    height: 200px;
+    background-color: #000;
+}
+
+h1 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+    padding-top: 70px;
+    color: #FFF;
+}
+
+nav > p {
+    padding-top: 10px;
+    text-align: center;
+    color: #FFF;
+    font-weight: normal;
+}
+
+ a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+}
+
+article {
+    box-shadow: 2px -1px 17px rgba(0, 0, 0, 0.495);
+}
+
+.poema {
+    padding: 70px;
+    height: 400px;
+    width: 240px;
+    max-width: 300px;
+    font-size: 1.5em;
+    line-height: 2em;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+.longo  {
+    padding: 70px;
+    height: 750px;
+    width: 240px;
+    max-width: 300px;
+    font-size: 1.5em;
+    line-height: 2em;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+.imagem-fundo {
+    background-image: url('imagens/background001.jpg');
+    background-position: right bottom;
+}
+
+.rgba {
+    background-color: rgba(0, 0, 0, 0.363);
+    color: #FFF;
+}
+
+.q2 {
+    background-image: url('imagens/background002.jpg');
+    background-position: right bottom;
+}
+
+footer {
+    background-color: #000;
+}
+
+footer > p {
+    color: #FFF;
+    text-align: center;
+    padding: 8px;
+}
+
